@@ -9,7 +9,7 @@ public class MaxTest {
     @Test
     public void maxFromFirstSecondAndThird() {
         Max maxim = new Max();
-        int result = maxim.max(4, 5, 6);
-        assertThat(result, is(6));
+        int result = maxim.max(7, 5, 6);
+        assertThat(result, is(7));
     }
 }
