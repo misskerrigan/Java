@@ -5,7 +5,7 @@ public class Counter {
         int i = 0;
         for (start = 0; start <= finish; start++) {
             if (start % 2 == 0) {
-                i = i + start;
+                i += start;
             }
         }
         return i;
